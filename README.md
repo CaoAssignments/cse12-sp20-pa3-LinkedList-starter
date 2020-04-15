@@ -193,13 +193,13 @@ class MyListIterator implements ListIterator<E> {
 
 The ListIterator is able to traverse the list by moving **a space at a time in either direction** (make certain to write a test to verify). It might be helpful to consider that the iterator has size+1 positions in the list: just after the sentinel head node (i.e. just before the first node containing data), between the 0 and 1 index, ..., just before the sentinel tail node (i.e., just after the last node containing data).  After one call to next(), the iterator is logically in the state shown below
 
-![](https://i.imgur.com/ZzZxW08.png)
+![](https://i.imgur.com/7zLUqyu.png)
 
-![](https://i.imgur.com/lql7tkw.png)
-![](https://i.imgur.com/OMDDlpN.png)
-![](https://i.imgur.com/z4AfLMI.png)
-![](https://i.imgur.com/H8QHNnO.png)
-![](https://i.imgur.com/Gux3GOi.png)
+![](https://i.imgur.com/ya9VjS7.png)
+![](https://i.imgur.com/lGKEhgX.png)
+![](https://i.imgur.com/tx5dSLj.png)
+![](https://i.imgur.com/iVLKxwj.png)
+![](https://i.imgur.com/m42QHLm.png)
 
 #### Implementation:
 
