@@ -294,6 +294,8 @@ We expect you to thoroughly test your code in your own tester. Below is a list o
 |Remove when list is empty|Remove index 0 in empty list| |
 |Remove greater than size - 1|Remove index 3 in 3 element list| |
 |Remove less than 0|Remove index -1 in 3 element list| |
+|Set valid element|Set an `int` to another `int` in an Integer MyLinkedList| |
+|Set first element|Set the first `int` to another `int` in an Integer MyLinkedList| |
 |Set last element|Set the last `int` to another `int` in an Integer MyLinkedList| |
 |Set when list is empty|Set index 0 in empty list | |
 |Set greater than `size-1`|Set index 3 in 3 element list| |
@@ -338,7 +340,7 @@ We expect you to thoroughly test your code in your own tester. Below is a list o
 | Set, non-empty, backward | Set new value of node on non-empty MyLinkedList when direction is backward | |
 | Set, empty | Set new value of node on empty MyLinkedList | |
 | Set, non-empty, cannot remove | Set new value of node on non-empty MyLinkedList when cannot remove | |
-| Set, null | Set `null` value of node on empty MyLinkedList | |
+| Set, null | Set `null` value of node on non-empty MyLinkedList | |
 
 ## Survey
 You can find the weekly reflection survey [here](https://forms.gle/5sWuxnFTfM8SPq2t8).
