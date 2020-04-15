@@ -250,6 +250,7 @@ We expect you to thoroughly test your code in your own tester. Below is a list o
 | Node Test Cases | Description |
 |---------------|-------------|
 |Construct nodes with non `null` data| Construct nodes by passing in data| |
+| Construct Node with `null` data | Construct a node by passing in `null` as the argument| |
 |Get Element | Calls `getElement` on a new node| |
 |Get Element after change | Calls `getElement` on node after its element is changed |
 |Single Node getNext|Calls `getNext` on a single new node  | |
@@ -296,7 +297,6 @@ We expect you to thoroughly test your code in your own tester. Below is a list o
 |size non-empty list|Call `size` on a list with 3 elements| |
 |size 1-element list|Call `size` on a list with 1 element| |
 |size empty list|Call size on a list with 0 elements| |
-| Construct Node with `null` data | Construct a node by passing in `null` as the argument| |
 
 | Iterator Test Cases | Description |
 |---------------|-------------|
