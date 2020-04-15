@@ -278,8 +278,8 @@ We expect you to thoroughly test your code in your own tester. Below is a list o
 |Add to middle|Add a string to a two element string MyLinkedList| | 
 |Add to head|Add a string to a three element string MyLinkedList| |
 |Add to tail|Add a string to a three element string MyLinkedList| |
-|Add multiple times|Add many strings to an empty string MyLinkedList using random indices| |
-|Add null|`NullPointerException` should be thrown| |
+|Add multiple times randomly|Add many strings to an empty string MyLinkedList using random indices| |
+|Add null with index|`NullPointerException` should be thrown| |
 |Clear non empty list|Call `clear` on a list with 3 elements| |
 |Clear 1-element list|Call `clear` on a list with 1 element| |
 |Clear empty list|Call `clear` on a list with 0 elements| |
@@ -288,15 +288,20 @@ We expect you to thoroughly test your code in your own tester. Below is a list o
 |isEmpty non empty list | Call `isEmpty` on a list with 3 elements"| |
 |isEmpty 1-element list | Call `isEmpty` on a list with 1 element" | |
 |isEmpty empty list|Call `isEmpty` on a list with 0 elements| |
-|remove  valid element|remove an `int` in an Integer MyLinkedList| |
+|Remove  valid element|Remove an `int` in an Integer MyLinkedList| |
+|Remove first element|Remove the first int in an Integer MLL| |
+|Remove last element|Remove the last int in an Integer MLL| |
+|Remove when list is empty|Remove index 0 in empty list| |
+|Remove greater than size - 1|Remove index 3 in 3 element list| |
+|Remove less than 0|Remove index -1 in 3 element list| |
 |Set last element|Set the last `int` to another `int` in an Integer MyLinkedList| |
 |Set when list is empty|Set index 0 in empty list | |
 |Set greater than `size-1`|Set index 3 in 3 element list| |
 |Set less than 0|Set index -1 in 3 element list| |
 |Set to `null`|Set the `int` to `null` in an Integer MyLinkedList| |
-|size non-empty list|Call `size` on a list with 3 elements| |
-|size 1-element list|Call `size` on a list with 1 element| |
-|size empty list|Call size on a list with 0 elements| |
+|Size non-empty list|Call `size` on a list with 3 elements| |
+|Size 1-element list|Call `size` on a list with 1 element| |
+|Size empty list|Call size on a list with 0 elements| |
 
 | Iterator Test Cases | Description |
 |---------------|-------------|
@@ -320,20 +325,20 @@ We expect you to thoroughly test your code in your own tester. Below is a list o
 | nextIndex empty | Checks index of iterator on an empty MyLinkedList |
 | Has previous, one call | Calls `previous` on a non-empty MyLinkedList | |
 | Has previous, two calls | Calls `previous` on a non-empty MyLinkedList (twice) | |
-| Doesn't have previous - non-empty| Calls `previous` on last node of a non-empty MyLinkedList| |
+| Doesn't have previous - non-empty| Calls `previous` on first node of a non-empty MyLinkedList| |
 | Doesn't have previous - empty| Calls `previous` on node of an empty MyLinkedList | |
 | prevIndex non-empty | Checks index returned by `iterator` of non-empty MyLinkedList after calling `previousIndex` | |
 | prevIndex first node non-empty | Checks index returned by `iterator` on the first node of a non-empty MyLinkedList after calling `previousIndex` | |
 | prevIndex empty | Checks index returned by `iterator` of an empty MyLinkedList after calling `previousIndex`  |
-| remove, non-empty, forward | Remove on non-empty MyLinkedList when direction is forward| |
-| remove, non-empty, backward | remove on non-empty MyLinkedList when direction is backward | |
-| non-empty, can't remove | remove on non-empty MyLinkedList when unable to remove | |
-| remove, empty | remove on empty MyLinkedList | |
-| set, non-empty, forward | set new value of node on non-empty MyLinkedList when direction is forward | |
-| set, non-empty, backward | set new value of node on non-empty MyLinkedList when direction is backward | |
-| set, empty | set new value of node on empty MyLinkedList | |
-| set, non-empty, cannot remove | set new value of node on non-empty MyLinkedList when cannot remove | |
-| set, null | set `null` value of node on empty MyLinkedList | |
+| Remove, non-empty, forward | Remove on non-empty MyLinkedList when direction is forward| |
+| Remove, non-empty, backward | Remove on non-empty MyLinkedList when direction is backward | |
+| Remove non-empty, can't remove | Remove on non-empty MyLinkedList when unable to remove | |
+| Remove, empty | Remove on empty MyLinkedList | |
+| Set, non-empty, forward | Set new value of node on non-empty MyLinkedList when direction is forward | |
+| Set, non-empty, backward | Set new value of node on non-empty MyLinkedList when direction is backward | |
+| Set, empty | Set new value of node on empty MyLinkedList | |
+| Set, non-empty, cannot remove | Set new value of node on non-empty MyLinkedList when cannot remove | |
+| Set, null | Set `null` value of node on empty MyLinkedList | |
 
 ## Survey
 You can find the weekly reflection survey [here](https://forms.gle/5sWuxnFTfM8SPq2t8).
