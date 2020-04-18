@@ -154,7 +154,8 @@ The following are the methods of the **MyLinkedList** class with a class signatu
 <br/>
 
 **Example for Add Method:**
-![](https://i.imgur.com/0OO5FdW.png)
+![](https://i.imgur.com/8hWx2lo.png)
+![](https://i.imgur.com/7vRyf83.png)
 ![](https://i.imgur.com/jix1K5s.png)
 ![](https://i.imgur.com/Q8XZb5p.png)
 
